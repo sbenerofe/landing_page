@@ -1,0 +1,73 @@
+body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+button.signup {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #1f2937;
+  font-size: 24px;
+  height: 50px;
+  align-items: center;
+}
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  color: white;
+  flex: 1;
+  flex-wrap: wrap;
+  height: 600px;
+  align-items: center;
+  gap: 10%;
+}
+.hero-text {
+  width: 45%;
+}
+.hero-maintitle {
+  font-size: 48px;
+}
+.hero-subtext {
+  font-size: 18px;
+}
+.header a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.header-links {
+  display: flex;
+  gap: 100px;
+}
+.hero-image {
+  width: 45%;
+}
+.information-header {
+  font-size: 36px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information-illustrations {
+  display: flex;
+  justify-content: space-between;
+}
+.information-image {
+  border: 5px solid royalblue;
+}
